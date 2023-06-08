@@ -1,2 +1,2 @@
 # ART-NET2miniDMX
-Simple ART-net miniDMX interface
+Simple ART-net miniDMX interface in Python
