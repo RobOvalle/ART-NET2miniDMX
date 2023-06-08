@@ -1,0 +1,6 @@
+---
+artnet:
+ ip: 2.0.0.16
+ universo: 0
+dispositivo:
+ puerto: COM5
