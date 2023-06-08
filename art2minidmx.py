@@ -2,15 +2,13 @@ import serial, time
 from stupidArtnet import StupidArtnetServer
 import keyboard
 import binascii
+
 import yaml
 config = yaml.safe_load(open("config.yml"))
 
 DMXpacket = bytearray(513)
 
 def test_callback(data):
-    """Test function to receive callback data."""
-    # the received data is an array
-    # of the channels value (no headers)
     for i in range(512):
         DMXpacket[i] = data[i]
         
